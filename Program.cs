@@ -1,4 +1,5 @@
 using FinanceApp.Data;
+using FinanceApp.Data.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FinanceAppContext>(options => 
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IExpensesService, ExpensesService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

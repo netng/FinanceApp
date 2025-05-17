@@ -194,3 +194,4 @@
 /home/yuna/Development/belajar/dotnet/FinanceApp/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/yuna/Development/belajar/dotnet/FinanceApp/obj/Debug/net9.0/FinanceApp.csproj.AssemblyReference.cache
 /home/yuna/Development/belajar/dotnet/FinanceApp/obj/Debug/net9.0/FinanceApp.csproj.Up2Date
+/home/yuna/Development/belajar/dotnet/FinanceApp/obj/Debug/net9.0/FinanceApp.sourcelink.json
